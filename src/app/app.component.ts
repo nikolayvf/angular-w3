@@ -18,7 +18,6 @@ export class AppComponent {
 
   public modelSize = 7;
 
-  // опааа ти си низз
   public modelTitle = '';
   public modelNote = '';
 
