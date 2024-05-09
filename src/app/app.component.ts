@@ -8,7 +8,6 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet, FormsModule, CommonModule],
   templateUrl: './app.component.html',
-  // styleUrl: './app.component.css',
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
@@ -67,10 +66,8 @@ export class AppComponent {
       (note) => note.title === this.modelTitle
     );
     if (foundIndex !== -1) {
-      // Note exists, update it
       this.notesCollection[foundIndex].notes = this.modelNote;
     } else {
-      // Note does not exist, add new note
       const newNote = {
         title: this.modelTitle,
         notes: this.modelNote,
