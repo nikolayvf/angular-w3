@@ -35,8 +35,8 @@ export class AppComponent {
       notes: 'съдържание...',
     },
     {
-      title: 'Заглавие',
-      notes: 'Съдържание',
+      title: 'Бележка 4',
+      notes: 'съдържание...',
     },
   ];
 
