@@ -1,0 +1,32 @@
+.element {
+  border: 3px solid black;
+  border-radius: 10%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.element:hover {
+  border: 3px solid green;
+  background-color: #dbe2c8;
+}
+
+.selected {
+  border: 3px dashed green;
+}
+
+button {
+  border-radius: 10%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.notes-placeholder--title,
+.title {
+  font-weight: 800;
+}
+
+input,
+.note {
+  width: 400px;
+  height: 50px;
+}
